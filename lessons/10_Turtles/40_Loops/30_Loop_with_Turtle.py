@@ -7,7 +7,6 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 - Make sure your code is clear and well-commented.
 - Run your program to verify that Tina the Turtle draws a pentagon.
 
-imp
 (Hint: You can copy and modify your previous code!)
 
 uid: BpGnQq64
@@ -15,3 +14,9 @@ name: Loop With Turtle
 """
 
 ... # Your code here
+
+import turtle
+tina = turtle.Turtle()
+
+for i in range(5):
+    
