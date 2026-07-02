@@ -15,7 +15,8 @@ Refer to the previous program, Meet_Tina.py for examples of how to use these tur
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()   
-window
+window = turtle.Screen()
+window = bgcolor('pale violet red')
 
 tina.pencolor('dark magenta')
 tina.begin_fill()
