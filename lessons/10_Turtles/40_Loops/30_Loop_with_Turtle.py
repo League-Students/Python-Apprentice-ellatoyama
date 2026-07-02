@@ -19,4 +19,5 @@ import turtle
 tina = turtle.Turtle()
 
 for i in range(5):
-    
+    tina.left(72)
+    tina.forward(50)
