@@ -17,12 +17,15 @@ turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()   
 
 tina.pencolor('dark magenta')
-tina.beginfill()
+tina.begin_fill()
 tina.circle (10) 
-tina.endfill
+tina.end_fill
 
 tina.goto(50, 100)     
-tina.pencolor()        # Create a turtle named tina
+tina.pencolor('dark sea green')  
+tina.begin_fill()
+tina.circle(10)  
+tina.end_fill    # Create a turtle named tina
 
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
