@@ -15,13 +15,17 @@ Refer to the previous program, Meet_Tina.py for examples of how to use these tur
 import turtle                           # Tell Python we want to work with the turtle
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()   
+window
 
 tina.pencolor('dark magenta')
 tina.begin_fill()
 tina.circle (10) 
 tina.end_fill
 
-tina.goto(50, 100)     
+tina.penup()
+tina.goto(50, 100)  
+tina.pendown()
+
 tina.pencolor('dark sea green')  
 tina.begin_fill()
 tina.circle(10)  
