@@ -25,7 +25,10 @@ tina.left(72)
 tina.forward(50)
 tina.color(green)
 tina.left(72)
-tina.forward          # Create a turtle named tina
+tina.forward(50)
+tina.color(red)
+tina.left(72)
+tina.forward(50)          # Create a turtle named tina
 
 # Use tina.forward() and tina.left() to draw a pentagon
 # Make each side of the pentagon a different color with 
