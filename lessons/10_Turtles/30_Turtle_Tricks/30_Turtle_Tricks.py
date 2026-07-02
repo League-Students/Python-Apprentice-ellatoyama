@@ -16,7 +16,7 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()   
 
-tina.
+tina.pencolor()
 tina.beginfill()
 tina.circle               # Create a turtle named tina
 
