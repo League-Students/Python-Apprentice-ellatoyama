@@ -24,6 +24,7 @@ def draw_polygon(sides):
         tina.forward(60)                             # Move tina forward by the forward distance
         tina.left(angle)                             # Turn tina left by the left turn
 
+draw_polygon(3) 
 draw_polygon(4)                        # Draw a square
 
 ...                                      # Move tina to another spot on the screen
@@ -33,6 +34,11 @@ draw_polygon(5)                       # Draw a pentagon
 ...                                      # Move tina to another spot on the screen
 
 draw_polygon(6)  
+draw_polygon(7)
+draw_polygon(8) 
+draw_polygon(9) 
+draw_polygon(10) 
+draw_polygon(11) 
                       # Draw a hexagon
 
 turtle.exitonclick()                     # Close the window when we click on it
