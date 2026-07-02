@@ -23,8 +23,8 @@ tina.speed(5)                           # Move at a moderate speed, not too fast
 # Repeat forward + left three more times to finish the square.
                           # Turn tina left by 90 degrees
 
-for i in range(4)
-tina.forward(150)
-tina.left(90)
+for i in range(4):
+    tina.forward(150)
+    tina.left(90)
 
               # Close the window when we click on it
