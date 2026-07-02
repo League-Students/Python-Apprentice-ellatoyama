@@ -16,7 +16,7 @@ import turtle                           # Tell Python we want to work with the t
 turtle.setup(600, 600, 0, 0)            # Set the size of the window
 tina = turtle.Turtle()   
 window = turtle.Screen()
-window = bgcolor('pale violet red')
+window.bgcolor('pale violet red')
 
 tina.pencolor('dark magenta')
 tina.begin_fill()
