@@ -12,8 +12,7 @@ In this program, use a loop to draw a regular pentagon (5-sided shape) with Tina
 uid: BpGnQq64
 name: Loop With Turtle
 """
-
-... # Your code here
+ # Your code here
 
 import turtle
 tina = turtle.Turtle()
