@@ -39,7 +39,15 @@ tina.speed(0)
 # then right 60 degrees, then forward 100 pixels. Make any shape you like.
 
 def make_a_shape(tina):
-    """Make a shape with turtle t. Make it go left or right or forward"""    
+    """Make a shape with turtle t. Make it go left or right or
+# 2) Call make_a_shape() in a loop to make the turtle draw a spiral.
+# For instance, you can call make_a_shape() 100 times to make a spiral with 100 shapes.
+# The second ... in the for loop should be the number of shapes you want to make,
+# for example 100, or a list of numbers.
+
+num_shapes = ...
+
+for i in range(500):
     tina.pencolor(get_random_color())
     tina.fillcolor(get_random_color())
     tina.begin_fill()
@@ -50,18 +58,9 @@ def make_a_shape(tina):
     tina.forward(70)
     tina.right(70)
     tina.forward(60)
-    tina.right(130)
-    tina.forward(100)
+    tina.right(135)
+    tina.forward(120)
     tina.endfill()
 
-# 2) Call make_a_shape() in a loop to make the turtle draw a spiral.
-# For instance, you can call make_a_shape() 100 times to make a spiral with 100 shapes.
-# The second ... in the for loop should be the number of shapes you want to make,
-# for example 100, or a list of numbers.
-
-num_shapes = ...
-
-for i in range(500):
-    make_a_shape(tina)
     
 turtle.done
