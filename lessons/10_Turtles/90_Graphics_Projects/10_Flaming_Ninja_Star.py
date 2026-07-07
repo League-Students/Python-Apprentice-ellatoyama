@@ -34,16 +34,16 @@ t.shape("turtle")
 t.width(2)
 t.speed(0)
 
-for i in range(25):
+for i in range(100):
     t.pencolor(get_random_color())
     t.fillcolor(get_random_color())
     t.begin_fill()
     t.forward(64)
-    t.left(40)
+    t.left(30)
     t.forward(flame_size)
-    t.right(170)
+    t.right(160)
     t.forward(flame_size)
-    t.right(62)
+    t.right(52)
     t.forward(base_size)
     t.end_fill()
 
