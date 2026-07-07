@@ -48,15 +48,6 @@ t = turtle.Turtle()
 
 set_turtle_image(t, "moustache1.gif")
 
-def screen_clicked(x, y):
-    """Print the x and y coordinates of the screen when clicked.
-    and make the turtle move to the clicked location."""
-
-    print('You pressed: x=' + str(x) + ', y=' + str(y))
-
-    t.goto(x, y) # Move the turtle to the clicked location
-  
-screen.onclick(screen_clicked) # Important! Tell Python which function to use when the screen is clicked
 
 def turtle_clicked(t, x, y):
     """Function that gets called when the user clicks on the turtle
