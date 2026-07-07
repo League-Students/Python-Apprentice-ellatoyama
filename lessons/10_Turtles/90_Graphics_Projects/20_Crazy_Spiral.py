@@ -50,6 +50,8 @@ def make_a_shape(tina):
     tina.forward(70)
     tina.right(70)
     tina.forward(60)
+    tina.right(160)
+    tina.forward(80)
     tina.endfill()
 
 # 2) Call make_a_shape() in a loop to make the turtle draw a spiral.
@@ -61,6 +63,5 @@ num_shapes = ...
 
 for i in range(500):
     make_a_shape(tina)
-    tina.right(360/num_shapes)
-
+    
 turtle.done
