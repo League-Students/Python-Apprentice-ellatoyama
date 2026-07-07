@@ -9,7 +9,7 @@ name: Crazy Spiral
 """
 
 import turtle
-window
+window = turtle.Screen()
 
 t = ... # Create a turtle named t
 
