@@ -29,16 +29,16 @@ window = turtle.Screen()
 base_size = 200  # the size of the black part of the star
 flame_size = 130  # the length of the flaming arms
 
-t = turtle.Turtle()
-t.shape("turtle")
-t.width(2)
-t.speed(0)
+tina = turtle.Turtle()
+tina.shape("turtle")
+tina.width(2)
+tina.speed(0)
 
 # 1) Complete make_a_shape() to make the turtle move in some pattern. 
 # For instance, you can make it go left 30 degrees, then forward 50 pixels, 
 # then right 60 degrees, then forward 100 pixels. Make any shape you like.
 
-def make_a_shape(t):
+def make_a_shape(tina):
     """Make a shape with turtle t. Make it go left or right or forward"""    
     tina.pencolor(get_random_color())
     tina.fillcolor(get_random_color())
@@ -60,7 +60,7 @@ def make_a_shape(t):
 num_shapes = ...
 
 for i in range(500):
-    make_a_shape(t)
+    make_a_shape(tina)
     tina.right(360/num_shapes)
 
 turtle.done
