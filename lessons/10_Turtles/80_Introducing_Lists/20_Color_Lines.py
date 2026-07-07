@@ -16,15 +16,15 @@ colors = [ 'red', 'blue', 'black', 'orange']    # define a list of colors
 
 for color in colors:                            # loop through the colors
     tina.color(color)
-    tina.forward(20)
+    tina.forward(50)
     tina.left(90)
 
-tina.forward 20
+tina.forward(60)
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
 for i in range(4):
     tina.color(colors[-i-1])
-    tina.forward(20)
+    tina.forward(50)
     tina.left(90)
 
 turtle.exitonclick()                     # Close the window when we click on it
