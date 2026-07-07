@@ -8,7 +8,8 @@ uid: zfzMbyH7
 name: Crazy Spiral
 """
 
-... # Copy code to make a turtle and set up the window
+import turtle
+window
 
 t = ... # Create a turtle named t
 
