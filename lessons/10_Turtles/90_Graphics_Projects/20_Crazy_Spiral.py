@@ -39,4 +39,4 @@ for i in range(...):
     make_a_shape(t)
     t.right(360/num_shapes)
 
-tina
+turtle.done
