@@ -36,8 +36,8 @@ for i in range(360):
     if i == 200:
         my_turtle.width(3)
     my_turtle.pencolor(get_next_color(i))
-    my_turtle.forward(i)
-    my_turtle.right(angle + 1)
+    my_turtle.forward(i+1)
+    my_turtle.right(angle + 2)
 
 my_turtle.hideturtle()
 
