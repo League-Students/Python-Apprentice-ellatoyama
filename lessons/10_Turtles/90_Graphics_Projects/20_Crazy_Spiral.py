@@ -8,11 +8,31 @@ uid: zfzMbyH7
 name: Crazy Spiral
 """
 
+import random
 import turtle
+
+
+# Returns a random color!
+def get_random_color():
+    return "#%06X" % (random.randint(0, 0xFFFFFF))
+
+
+colors = ["red", "blue", "green", "yellow", "orange"]
+
+
+def get_next_color(i):
+    return colors[i % len(colors)]
+
+turtle.setup(600, 600, 0, 0)            # Set the size of the window
 window = turtle.Screen()
 
-tina = turtle.Turtle()
-tina.speed(8)
+base_size = 200  # the size of the black part of the star
+flame_size = 130  # the length of the flaming arms
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.width(2)
+t.speed(0)
 
 # 1) Complete make_a_shape() to make the turtle move in some pattern. 
 # For instance, you can make it go left 30 degrees, then forward 50 pixels, 
