@@ -22,7 +22,7 @@ for color in colors:                            # loop through the colors
 tina.forward 20
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 colorss = -[colors]
-for color in colors:
+for color in colorss:
     tina.color(color)
     tina.forward(20
     tina.left(90))
