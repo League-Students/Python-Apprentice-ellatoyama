@@ -25,7 +25,7 @@ def make_a_shape(t):
     tina.right(35)
     tina.forward(70)
     tina.right(70)
-    tina.forward(60
+    tina.forward(60)
 
 # 2) Call make_a_shape() in a loop to make the turtle draw a spiral.
 # For instance, you can call make_a_shape() 100 times to make a spiral with 100 shapes.
