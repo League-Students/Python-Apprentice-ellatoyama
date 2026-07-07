@@ -55,7 +55,7 @@ def make_a_shape(t):
 
 num_shapes = ...
 
-for i in range(...):
+for i in range(500):
     make_a_shape(t)
     t.right(360/num_shapes)
 
