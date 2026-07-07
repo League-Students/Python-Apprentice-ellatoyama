@@ -50,16 +50,7 @@ set_turtle_image(t, "moustache1.gif")
 
 
 def turtle_clicked(t, x, y):
-    """Function that gets called when the user clicks on the turtle
-
-    This function will make the turtle tilt 20 degrees 18 times, making a full
-    circle. It is called by the turtle when the user clicks on it.
-
-    Args:
-        t (Turtle): The turtle object that was clicked
-        x (int): The x coordinate of the click
-        y (int): The y coordinate of the click
-    """
+   
 
     print('turtle clicked!')
     
