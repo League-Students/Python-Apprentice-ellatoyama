@@ -10,7 +10,7 @@ def fractal_stuff(size,depth):
             tina.forward(size)
             tina.left(36)
     else:
-        for in
+        for i in range
 
 
 
