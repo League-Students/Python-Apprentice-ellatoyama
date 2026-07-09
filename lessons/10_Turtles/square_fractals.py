@@ -26,3 +26,5 @@ def fractal_square_stuff(size,depth,color):
 
 tina.penup()
 tina.goto(-275,-275)
+tina.pendown()
+random_color
