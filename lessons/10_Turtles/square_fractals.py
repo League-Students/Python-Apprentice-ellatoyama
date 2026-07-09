@@ -8,4 +8,8 @@ def fractal_square_stuff(size,depth,color):
     tina.penup()
     if depth == 0: 
         tina.begin_fill()
-        
+        tina.color(color)
+        for i in range(4):
+            tina.forward(size)
+            tina.left(90)
+        tina.endfill(_)
