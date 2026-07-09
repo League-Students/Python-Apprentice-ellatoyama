@@ -6,6 +6,7 @@ tina.shape('turtle')
 
 def nudge(color):
     color+= 1 + random.random() * 0.1 - 0.05
+    return color % 1
 
 def fractal_square_stuff(size,depth,color):
     tina.penup()
@@ -17,3 +18,5 @@ def fractal_square_stuff(size,depth,color):
             tina.left(90)
         tina.end_fill()
     else:
+        for i in range(4):
+            color = 
