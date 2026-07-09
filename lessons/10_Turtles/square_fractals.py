@@ -21,4 +21,5 @@ def fractal_square_stuff(size,depth,color):
         for i in range(4):
             color = (nudge(color[0]),nudge(color[1]),nudge(color[2]))
             fractal_squar_stuff(size/2,depth-1,color)
-            tina.forward(sizew)
+            tina.forward(size)
+            tina.left(90)
