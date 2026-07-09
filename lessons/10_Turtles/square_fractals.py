@@ -28,4 +28,4 @@ tina.penup()
 tina.goto(-275,-275)
 tina.pendown()
 random_color = (0,0,5,8,5)
-fractal_
+fractal_square_stuff(550)
