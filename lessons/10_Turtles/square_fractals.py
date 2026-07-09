@@ -12,4 +12,4 @@ def fractal_square_stuff(size,depth,color):
         for i in range(4):
             tina.forward(size)
             tina.left(90)
-        tina.endfill(_)
+        tina.end_fill()
