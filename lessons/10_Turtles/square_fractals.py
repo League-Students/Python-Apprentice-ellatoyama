@@ -19,4 +19,4 @@ def fractal_square_stuff(size,depth,color):
         tina.end_fill()
     else:
         for i in range(4):
-            color = (nudge(color[0]),nudge9color[1]
+            color = (nudge(color[0]),nudge(color[1]),nudge
