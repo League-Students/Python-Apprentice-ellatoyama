@@ -16,9 +16,11 @@ def fractal_stuff(size,depth):
             fractal_stuff(size/2,depth-1)
             tina.forward(size)
             tina.left(36)
+
 tina.penup()
-tina.goto(-300,-300)
+tina.goto(-275,-275)
 tina.pendown()
+tina.
 
 fractal_stuff(200,4)
 
