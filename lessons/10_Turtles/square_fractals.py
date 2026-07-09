@@ -4,7 +4,8 @@ screen.setup(600, 600)
 tina.speed(0)
 tina.shape('turtle')
 
-def fracta
+def nudge(color):
+    color+= 1 + random.random() * 0.1
 
 def fractal_square_stuff(size,depth,color):
     tina.penup()
