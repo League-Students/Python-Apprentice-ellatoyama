@@ -16,6 +16,10 @@ def fractal_stuff(size,depth):
             fractal_stuff(size/2,depth-1)
             tina.forward(size)
             tina.left(36)
+tina.penup()
+tina.goto(-225,-225)
+tina.pendown()
+
 fractal_stuff(500,4)
 
 turtle.exitonclick()
