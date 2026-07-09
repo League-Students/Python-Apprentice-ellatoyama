@@ -20,6 +20,6 @@ tina.penup()
 tina.goto(-225,-225)
 tina.pendown()
 
-fractal_stuff(500,4)
+fractal_stuff(200,4)
 
 turtle.exitonclick()
