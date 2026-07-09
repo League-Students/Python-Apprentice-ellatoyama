@@ -7,4 +7,5 @@ tina.shape('turtle')
 def fractal_square_stuff(size,depth,color):
     tina.penup()
     if depth == 0: 
-        tina.begin
+        tina.begin_fill()
+        
