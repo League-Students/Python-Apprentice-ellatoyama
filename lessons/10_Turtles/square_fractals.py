@@ -23,3 +23,6 @@ def fractal_square_stuff(size,depth,color):
             fractal_squar_stuff(size/2,depth-1,color)
             tina.forward(size)
             tina.left(90)
+
+tina.penup()
+tina.goto(-275,-275)
