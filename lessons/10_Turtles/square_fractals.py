@@ -4,6 +4,8 @@ screen.setup(600, 600)
 tina.speed(0)
 tina.shape('turtle')
 
+def fractal_triangle
+
 def fractal_square_stuff(size,depth,color):
     tina.penup()
     if depth == 0: 
@@ -13,3 +15,4 @@ def fractal_square_stuff(size,depth,color):
             tina.forward(size)
             tina.left(90)
         tina.end_fill()
+    else:
