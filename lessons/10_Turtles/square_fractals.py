@@ -4,7 +4,7 @@ screen.setup(600, 600)
 tina.speed(0)
 tina.shape('turtle')
 
-def fractal_triangle
+def fracta
 
 def fractal_square_stuff(size,depth,color):
     tina.penup()
