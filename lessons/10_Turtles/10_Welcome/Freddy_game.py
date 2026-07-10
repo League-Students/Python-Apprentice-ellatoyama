@@ -2,7 +2,7 @@ import turtle
 
 tina = turtle.Turtle()
 tina.shape("turtle")
-tina_path
+tina_path = [1,2,3,4,511]
 
 screen = turtle.Screen()
 screen.setup(600,600)
