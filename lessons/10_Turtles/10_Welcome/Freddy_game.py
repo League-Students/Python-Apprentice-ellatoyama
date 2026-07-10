@@ -11,7 +11,10 @@ screen.setup(600,600)
 cam_colors = ['red','black','white','blue','green']
 
 def show_animatronics(cam_num):
-    if(cam_num == tina_path(tina_progress)
+    if(cam_num == tina_path(tina_progress)):
+        tina.showturtle()
+    else:
+        tina.hideturtle
 
 def open_cam_1():
     print("cam 1 open")
