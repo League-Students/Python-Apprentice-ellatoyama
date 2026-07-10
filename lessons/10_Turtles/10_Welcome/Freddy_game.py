@@ -10,7 +10,8 @@ screen.setup(600,600)
 
 cam_colors = ['red','black','white','blue','green']
 
-def show animatronics(cam_num)
+def show_animatronics(cam_num):
+    if(cam_num == tina_path
 
 def open_cam_1():
     print("cam 1 open")
