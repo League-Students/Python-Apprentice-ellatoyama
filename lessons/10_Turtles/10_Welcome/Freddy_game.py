@@ -31,13 +31,15 @@ def open_cam_3():
 def open_cam_4():
     print("cam 4 open")
     screen.bgcolor(cam_colors[3])
-    show_animatronics(cam_num)
+    show_animatronics(4)
 def open_cam_5():
     print("cam 5 open")
     screen.bgcolor(cam_colors[4])
+    show_animatronics(5)
 def exit_cam():
     print("cam exited")
     screen.bgcolor('yellow')
+    show_animatronics(6)
 
 exit_cam()
 
