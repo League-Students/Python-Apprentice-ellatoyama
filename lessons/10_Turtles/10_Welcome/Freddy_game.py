@@ -56,6 +56,6 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, '0')
 
-screen.ontimer(move_tine,2000)
+screen.ontimer(move_tina,2000)
 
 turtle.exitonclick()
