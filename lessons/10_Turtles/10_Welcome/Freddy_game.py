@@ -14,7 +14,7 @@ def show_animatronics(cam_num):
     if(cam_num == tina_path(tina_progress)):
         tina.showturtle()
     else:
-        tina.hideturtle
+        tina.hideturtle()1
 
 def open_cam_1():
     print("cam 1 open")
