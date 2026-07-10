@@ -1,7 +1,7 @@
 import turtle
 
-tina = turtle.Turtle
-tina.shape('turtle')
+tina = turtle.Turtle()
+tina.shape("turtle")
 
 
 screen = turtle.Screen()
