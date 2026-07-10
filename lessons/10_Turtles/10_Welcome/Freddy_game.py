@@ -12,6 +12,15 @@ def open_cam_1():
 def open_cam_2():
     print("cam 2 open")
     screen.bgcolor(cam_colors[1])
+def open_cam_3():
+    print("cam 3 open")
+    screen.bgcolor(cam_colors[0])
+def open_cam_4():
+    print("cam 3 open")
+    screen.bgcolor(cam_colors[0])
+def open_cam_5():
+    print("cam 3 open")
+    screen.bgcolor(cam_colors[0])
 
 
 
