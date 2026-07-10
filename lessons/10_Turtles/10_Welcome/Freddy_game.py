@@ -14,7 +14,7 @@ cam_colors = ['red','black','white','blue','green']
 
 def move_tina():
     global cam_num
-    if tina_progress ==len(tina_path):
+    if tina_progress ==len(tina_path)-1:
         print('game over')
     else:
         tina_progress += 1
@@ -24,7 +24,9 @@ def move_tina():
 def scare_tina():
     global tina_progress
     global cam_num
-    if tina_progress == len(tina_path and cam_num == 0:
+    if tina_progress == len(tina_path) and cam_num == 0:
+        tina_progress = 0
+        print('ahhhhh')
 
 def show_animatronics(cam_num):
     global cam_num
