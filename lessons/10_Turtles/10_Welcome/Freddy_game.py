@@ -24,7 +24,7 @@ def move_tina():
 def scare_tina():
     global tina_progress
     global cam_num
-    
+    if tina_progress == len(tina_path and cam_num == 0:
 
 def show_animatronics(cam_num):
     global cam_num
