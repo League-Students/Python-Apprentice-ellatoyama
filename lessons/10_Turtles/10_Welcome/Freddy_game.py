@@ -14,13 +14,13 @@ def open_cam_2():
     screen.bgcolor(cam_colors[1])
 def open_cam_3():
     print("cam 3 open")
-    screen.bgcolor(cam_colors[0])
+    screen.bgcolor(cam_colors[2])
 def open_cam_4():
     print("cam 3 open")
-    screen.bgcolor(cam_colors[0])
+    screen.bgcolor(cam_colors[3])
 def open_cam_5():
     print("cam 3 open")
-    screen.bgcolor(cam_colors[0])
+    screen.bgcolor(cam_colors[0]4])
 
 
 
