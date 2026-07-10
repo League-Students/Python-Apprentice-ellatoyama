@@ -3,7 +3,7 @@ import time
 
 tina = turtle.Turtle()
 tina.shape("turtle")
-tina_path = [1,2,4,51]
+tina_path = [1,2,4,5]
 tina_progress = 0
 
 screen = turtle.Screen()
@@ -52,8 +52,6 @@ screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
 screen.onkey(exit_cam, '0')
 
-while True:
-    time.sleep(1)
-    tina_progress += 1
+screen.ontimer
 
 turtle.exitonclick()
