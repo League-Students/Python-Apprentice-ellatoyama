@@ -10,6 +10,7 @@ screen = turtle.Screen()
 screen.setup(600,600)
 1
 cam_colors = ['red','black','white','blue','green']
+cam_num = 0
 
 def move_tina():
     global tina_progress1
