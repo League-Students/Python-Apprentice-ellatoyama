@@ -24,7 +24,7 @@ def move_tina():
 def scare_tina():
     global tina_progress
     global cam_num
-    if tina_progress == len(tina_path) and cam_num == 0:
+    if tina_progress == len(tina_path)-1 and cam_num == 0:
         tina_progress = 0
         print('ahhhhh')
 
