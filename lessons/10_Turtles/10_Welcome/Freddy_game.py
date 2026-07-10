@@ -23,9 +23,6 @@ def open_cam_5():
     screen.bgcolor(cam_colors[4])
 
 
-
-
-
 screen.listen()
 screen.onkey(open_cam_1, "1")
 screen.onkey(open_cam_2, "2")
