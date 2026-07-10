@@ -18,7 +18,7 @@ def fractal_stuff(size,depth):
             tina.left(36)
 
 tina.penup()
-tina.goto(-25,-225)
+tina.goto(-25,-160)
 tina.pendown()
 tina.pencolor('dark red')
 
