@@ -22,6 +22,6 @@ tina.goto(0,-275)
 tina.pendown()
 tina.pencolor('dark red')
 
-fractal_stuff(200,4)
+fractal_stuff(2,4)
 
 turtle.exitonclick()
