@@ -10,7 +10,7 @@ screen.setup(600,600)
 
 cam_colors = ['red','black','white','blue','green']
 
-def
+def show animatronics(cam_num)
 
 def open_cam_1():
     print("cam 1 open")
