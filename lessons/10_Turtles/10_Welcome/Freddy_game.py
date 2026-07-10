@@ -2,12 +2,15 @@ import turtle
 
 tina = turtle.Turtle()
 tina.shape("turtle")
-tina_path = [1,2,3,4,511]
+tina_path = [1,2,3,4,5]
+tina_progress = 0
 
 screen = turtle.Screen()
 screen.setup(600,600)
 
 cam_colors = ['red','black','white','blue','green']
+
+def
 
 def open_cam_1():
     print("cam 1 open")
