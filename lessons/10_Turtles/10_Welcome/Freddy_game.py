@@ -1,6 +1,8 @@
 import turtle
 
 tina = turtle.Turtle
+
+
 screen = turtle.Screen()
 screen.setup(600,600)
 
@@ -31,6 +33,6 @@ screen.onkey(open_cam_2, "2")
 screen.onkey(open_cam_3, "3")
 screen.onkey(open_cam_4, "4")
 screen.onkey(open_cam_5, "5")
-screen.onkey(exit_cam)
+screen.onkey(exit_cam, '0')
 
 turtle.exitonclick()
