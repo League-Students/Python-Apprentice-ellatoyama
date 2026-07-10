@@ -18,10 +18,10 @@ def fractal_stuff(size,depth):
             tina.left(36)
 
 tina.penup()
-tina.goto(0,-275)
+tina.goto(-25,-275)
 tina.pendown()
 tina.pencolor('dark red')
 
-fractal_stuff(2,4)
+fractal_stuff(200,4)
 
 turtle.exitonclick()
