@@ -4,6 +4,6 @@ tina = turtle.Turtle
 screen = turtle.Screen()
 Screen.setup(600,600)
 
-
+cam_colors = ['red','black','white','blue','green']
 
 turtle.exitonclick()
